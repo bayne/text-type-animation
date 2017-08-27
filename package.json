@@ -4,7 +4,8 @@
   "description": "Creates a text-typing animation",
   "main": "dist/text-type-animation.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/.bin/babel lib/TextTypeAnimation.js | node node_modules/.bin/uglifyjs > dist/text-type-animation.js"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,8 @@
     "babel-core": "^6.26.0",
     "babel-polyfill": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
-    "babel-preset-stage-0": "^6.24.1"
-  }
+    "babel-preset-stage-0": "^6.24.1",
+    "uglify-js": "^3.0.28"
+  },
+  "dependencies": {}
 }
