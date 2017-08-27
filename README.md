@@ -37,4 +37,30 @@ let animation = new TextTypeAnimation(document.querySelector('header h1'), frame
 window.requestAnimationFrame(animation.step);
 ```
 
+**For blinking cursor**
+
+```css
+header h1 {
+  font-family: 'Source Code Pro', monospace;
+  white-space: pre;
+}
+header h1 span.cursor {
+  background-color: rgb(74, 74, 74);
+  color: white;
+}
+header h1 span.cursor.blink {
+  animation: blink 1.00s linear infinite;
+}
+@keyframes blink {
+  0%, 50% {
+    background-color: rgb(74, 74, 74);
+    color: white;
+  }
+  51%, 100% {
+    background-color: white;
+    color: rgb(74,74,74);
+  }
+}
+```
+
 See [example](#)
