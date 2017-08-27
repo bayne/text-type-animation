@@ -17,9 +17,18 @@
       color: white;
     }
     header h1 span.cursor.blink {
-      background-color: white;
-      color: rgb(74, 74, 74);
+	  animation: blink 1.00s linear infinite;
     }
+	@keyframes blink {
+	  0%, 50% {
+		background-color: rgb(74, 74, 74);
+		color: white;
+	  }
+	  51%, 100% {
+		background-color: white;
+		color: rgb(74,74,74);
+	  }
+	}
   </style>
   </head>
 <body>
