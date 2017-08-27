@@ -1,0 +1,34 @@
+{
+  "name": "text-type-animation",
+  "version": "1.0.0",
+  "description": "Creates a text-typing animation",
+  "main": "dist/text-type-animation.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bayne/text-type-animation.git"
+  },
+  "keywords": [
+    "animation",
+    "text",
+    "typing",
+    "typing",
+    "text",
+    "cursor"
+  ],
+  "author": "Brian Payne <bwpayne@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bayne/text-type-animation/issues"
+  },
+  "homepage": "https://github.com/bayne/text-type-animation#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
