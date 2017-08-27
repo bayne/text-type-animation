@@ -2,7 +2,7 @@
 
 Create a text animation that looks like typing
 
-![](https://user-images.githubusercontent.com/712014/29747795-5b3c52e2-8aba-11e7-9c7e-c0aa23afcb75.gif)
+![demo](https://user-images.githubusercontent.com/712014/29747839-0c1f82b8-8abc-11e7-8aef-bd5319c0436b.gif)
 
 ## Install
 
