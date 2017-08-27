@@ -63,4 +63,4 @@ header h1 span.cursor.blink {
 }
 ```
 
-See [example](#)
+See [example](https://bayne.github.io/text-type-animation/)
